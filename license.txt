@@ -1,0 +1,20 @@
+C:\Ruby21-x64\workspace\depot>rails generate scaffold Product title:string descr
+iption:text image_url:string price:decimal
+DL is deprecated, please use Fiddle
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/tzinfo-1.2.2/lib/tzinfo/data_source.rb:18
+2:in `rescue in create_default_data_source': No source of timezone data could be
+ found. (TZInfo::DataSourceNotFound)
+Please refer to http://tzinfo.github.io/datasourcenotfound for help resolving th
+is error.
+        from C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/tzinfo-1.2.2/lib/tzinfo/data
+_source.rb:179:in `create_default_data_source'
+        from C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/tzinfo-1.2.2/lib/tzinfo/data
+_source.rb:40:in `block in get'
+        from C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/tzinfo-1.2.2/lib/tzinfo/data
+_source.rb:39:in `synchronize'
+
+
+
+58c15df38f0a74e20567e0bcac0d93e1e0a3c8bf append GPL
+331b4f5893ac9e1aea1e19949ce70ac80b9efd7c add distributed
+282ee4df7ea6beb260488027b8e8fb67623b1281 wrote a readme file
